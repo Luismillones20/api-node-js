@@ -12,6 +12,6 @@ app.use('/tasks', taskRoutes);
 
 sequelize.sync().then(() => {
     app.listen(8001, () => {
-        console.log('API compleja corriendo en http://localhost:8001');
+        console.log('API corriendo mi puerto 8001 en una maquina virtual');
     });
 });
