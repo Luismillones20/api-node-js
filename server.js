@@ -11,7 +11,7 @@ app.use('/users', userRoutes);
 app.use('/tasks', taskRoutes);
 
 sequelize.sync().then(() => {
-    app.listen(3000, () => {
-        console.log('API compleja corriendo en http://localhost:3000');
+    app.listen(8001, () => {
+        console.log('API compleja corriendo en http://localhost:8001');
     });
 });
